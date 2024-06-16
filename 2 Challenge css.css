@@ -1,0 +1,291 @@
+* {
+    box-sizing:border-box;
+    padding:7px;
+    margin:0px;
+}
+
+@media screen and (min-width: 80rem) {
+    .content{
+      margin: 1em 2em;
+    }
+  }
+
+  
+body {
+    background-color:#7c787845;
+}
+
+.head {
+    padding: 30px;
+    font-family: "Arial", "Helvetica", "sans-serif";
+    background-color: lightyellow;
+    color:yellow;
+    margin-top: 5px;
+    position:relative;
+
+}
+
+.head h1 {
+    display: inline-block;
+    width: 400px;
+    height: 70px;
+    background-color:lightskyblue;
+    margin-left:-2.4%;
+    border: 1.5mm ridge orange;
+    text-align: right;
+    padding-top: 10px;
+}
+
+
+.head nav {
+    padding-top: 8px;
+    margin-right: 10px;
+    float: right;
+    font-family:"Arial", "Helvetica", "sans-serif";
+    font-size: 21px;
+}
+
+.head nav ul {
+    list-style-type: none;
+}
+
+.head nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 13px;
+}
+
+a {
+    color:grey;
+    text-decoration: underline;
+    text-decoration-thickness: 3.5px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+p {
+    font-size:18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:30px;
+    text-align: justify;
+}
+
+.design-img {
+    height: 400px;
+    width: 100%;
+    margin-bottom:50px;
+    margin-top: 3px;
+    background-image:url("https://www.2440media.com/sites/default/files/assets/images/blog/The%20Difference%20between%20Web%20Designer%2C%20Web%20Developer%2C%20and%20Web%20Programmer.jpg");
+    background-size:cover;
+    background-position: center;
+    position:relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-box {
+    top:90%;
+    right: -90px;
+    transform: translate(-50%, -50%);
+    background-color:greenyellow;
+    padding: 10px;
+    color:rgba(76, 176, 238, 0.849);
+    border-radius:50px;  
+    position: absolute;
+}
+
+.text-box {
+    font-size: 14px;
+    transition: font-size 4s 0.5s;
+  }
+  
+  .text-box:hover {
+    font-size: 36px;
+  }
+
+    h1{
+    border-right: 5px solid darkblue;
+    padding-right: 10px;
+    margin: 0;
+    font-size: 40px;
+    width: 200px;
+}
+
+.About-me {
+    display: flex;
+    gap: 20px;
+    margin-bottom:35px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+      }  
+
+
+
+
+.container {
+    display: grid;
+    background-color: rgba(134, 70, 70, 0.198);
+    border-style: double;
+    border-color: rgba(226, 214, 43, 0.699);
+    border-end-end-radius:15%;
+    border-top-left-radius: 15%;
+    gap: 20px;
+    margin-bottom: 40px;
+    margin-left:10%;
+    width:400%;
+}
+
+.image-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap:1rem;
+    position:relative ;
+}
+
+.image-container img {
+        width:100%;
+        height:95%;
+        gap:10px;
+        border-bottom-right-radius: 20%;
+        border-top-left-radius: 20%;
+
+}
+
+.luna {
+    grid-column: 1 / span 2;
+    width:95%;
+    height:100%;
+    border-radius: 20%;
+    position:relative;
+}
+
+.Moon{
+        bottom:55%;
+        background-color: #f3e0e0ce;
+        border-radius:45%;
+        width:20%;
+        position:absolute;
+        left:10%;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+     }
+
+.Nasa{
+    bottom:25%;
+    background-color: #f3e0e0ce;
+    border-radius:45%;
+    width:15%;
+    position: absolute;
+    left:0.5%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Galaxy {
+    bottom:25%;
+    background-color: #f3e0e0ce;
+    border-radius:45%;
+    width:20%;
+    position: absolute;
+    left:53%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+
+.Traveling {
+
+    bottom:0.5%;
+    background-color: #f3e0e0ce;
+    border-radius:45%;
+    width:20%;
+    position: absolute;
+    left:0.5%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:18px;
+}
+
+.cats{
+    bottom:0.5%;
+    background-color: #f3e0e0ce;
+    border-radius:45%;
+    width:12%;
+    position: absolute;
+    left:53%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+
+.work-section {
+    display: flex;
+    gap:10rem;
+    background:#f7e9c0d4;
+    font-size:20px;
+    font-weight: bold;
+    border-radius:40%;
+    width:70%;
+    margin-left:20%;
+}
+
+.work-section p {
+    font-size:45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-self: center;
+    border-right: 5px solid darkblue;
+}
+
+
+.Contact-me {
+display:flex;
+gap:7rem;
+margin-bottom:2px;
+margin-top:2px ;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Contact-me p {
+text-decoration: underline;
+text-decoration-thickness:3.5px;
+text-decoration-color: darkblue;
+font-family: Georgia, 'Times New Roman',
+}
+
+.Contact-me a {
+    text-decoration: underline;
+    text-decoration-thickness:3.5px;
+    text-decoration-color: darkblue;
+    font-family: Georgia, 'Times New Roman',
+    }
+    
+a{
+    background-color:blanchedalmond;
+    transition: background-color:0.5s;
+}
+
+a:hover {
+    background-color: goldenrod;
+}
+
+.footer {
+    padding: 50px;
+    clear: both;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    background-color: #13293d;
+    color: #fff;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
